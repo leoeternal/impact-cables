@@ -1,0 +1,184 @@
+.firstpage-wrapper {
+  /* border: 1px solid; */
+  width: 100vw;
+  height: 90vh;
+  background-color: rgb(214, 52, 49);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.firstpage-wrapper .title {
+  /* border: 1px solid; */
+  width: 70%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstpage-wrapper .title p {
+  text-align: center;
+  color: white;
+  font-size: 150px;
+}
+
+.firstpage-wrapper .desc {
+  /* border: 1px solid; */
+  width: 70%;
+  height: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstpage-wrapper .desc p {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  font-weight: 300;
+  letter-spacing: 0.9px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  word-spacing: normal;
+}
+
+@media (max-width: 1232px) {
+  .firstpage-wrapper .title p {
+    font-size: 130px;
+  }
+  .firstpage-wrapper .desc p {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1068px) {
+  .firstpage-wrapper .title p {
+    font-size: 115px;
+  }
+  .firstpage-wrapper .desc p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 948px) {
+  .firstpage-wrapper .title {
+    width: 80%;
+  }
+  .firstpage-wrapper .desc {
+    width: 80%;
+  }
+}
+
+@media (max-width: 832px) {
+  .firstpage-wrapper .title p {
+    font-size: 100px;
+  }
+  .firstpage-wrapper .desc p {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 724px) {
+  .firstpage-wrapper .title {
+    width: 90%;
+  }
+  .firstpage-wrapper .desc {
+    width: 90%;
+  }
+}
+
+@media (max-width: 639px) {
+  .firstpage-wrapper .title p {
+    font-size: 90px;
+  }
+  .firstpage-wrapper .desc p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 575px) {
+  .firstpage-wrapper .title p {
+    font-size: 85px;
+  }
+  .firstpage-wrapper .desc p {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 543px) {
+  .firstpage-wrapper .title p {
+    font-size: 80px;
+  }
+  .firstpage-wrapper .desc p {
+    font-size: 21px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 512px) {
+  .firstpage-wrapper .title p {
+    font-size: 75px;
+  }
+}
+
+@media (max-width: 480px) {
+  .firstpage-wrapper .title p {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 448px) {
+  .firstpage-wrapper .title p {
+    font-size: 65px;
+  }
+  .firstpage-wrapper .desc p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 416px) {
+  .firstpage-wrapper .title p {
+    font-size: 55px;
+  }
+  .firstpage-wrapper .title {
+    width: 95%;
+    height: 15%;
+  }
+  .firstpage-wrapper .desc {
+    width: 95%;
+    height: 65%;
+  }
+}
+
+@media (max-width: 368px) {
+  .firstpage-wrapper .title p {
+    font-size: 50px;
+  }
+  .firstpage-wrapper .desc p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 333px) {
+  .firstpage-wrapper .title p {
+    font-size: 45px;
+  }
+  .firstpage-wrapper .desc p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 303px) {
+  .firstpage-wrapper .title p {
+    font-size: 40px;
+  }
+  .firstpage-wrapper .desc p {
+    font-size: 15px;
+    line-height: 30px;
+  }
+}

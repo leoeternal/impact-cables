@@ -1,0 +1,126 @@
+.contactpage-wrapper {
+  /* border: 1px solid; */
+  width: 100vw;
+  height: 40vh;
+  background: #f6f9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.contactpage-wrapper .heading1 {
+  /* border: 1px solid; */
+  width: 99%;
+  margin: auto;
+  height: 39%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.contactpage-wrapper .heading1 p {
+  font-size: 40px;
+  line-height: 1;
+  font-weight: 600;
+  color: #012970;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.contactpage-wrapper .heading2 {
+  /* border: 1px solid; */
+  width: 99%;
+  margin: auto;
+  height: 29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactpage-wrapper .heading2 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+.contactpage-wrapper .button {
+  /* border: 1px solid; */
+  width: 99%;
+  margin: auto;
+  height: 29%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+@media (max-width: 650px) {
+  .contactpage-wrapper {
+    height: 30vh;
+  }
+}
+
+@media (max-width: 490px) {
+  .contactpage-wrapper {
+    height: 25vh;
+  }
+  .contactpage-wrapper .heading1 p {
+    font-size: 35px;
+  }
+
+  .contactpage-wrapper .heading2 p {
+    font-size: 15px;
+  }
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+@media (max-height: 501px) and (max-width: 650px) {
+  .contactpage-wrapper .heading1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 39%;
+  }
+  .contactpage-wrapper .heading2 {
+    height: 19%;
+  }
+  .contactpage-wrapper .button {
+    height: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contactpage-wrapper .heading1 p {
+    font-size: 30px;
+  }
+  .contactpage-wrapper .heading2 p {
+    font-size: 16px;
+  }
+}
+
+@media (max-height: 501px) and (max-width: 369px) {
+  .contactpage-wrapper .heading1 p {
+    font-size: 25px;
+  }
+  .contactpage-wrapper .heading2 p {
+    font-size: 14px;
+  }
+}
+
+@media (max-height: 501px) and (max-width: 319px) {
+  .contactpage-wrapper .heading1 p {
+    font-size: 20px;
+  }
+  .contactpage-wrapper .heading2 p {
+    font-size: 12px;
+  }
+}
+
+@media (max-height: 501px) and (max-width: 275px) {
+  .contactpage-wrapper .heading1 p {
+    font-size: 18px;
+  }
+  .contactpage-wrapper .heading2 p {
+    font-size: 11px;
+  }
+}
