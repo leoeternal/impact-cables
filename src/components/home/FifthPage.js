@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 import Aos from "aos";
 import "aos/dist/aos.css";
 // import vidhut from "../../static/images/vidhut.png";
-import vidhut22 from "../../static/images/vidhut22.jpeg";
+import vidhutfinal from "../../static/images/vidhutfinal.png";
+// import vidhut22 from "../../static/images/vidhut22.jpeg";
 import "./fifthPage.css";
 
 function FifthPage() {
@@ -20,7 +21,7 @@ function FifthPage() {
         >
           <motion.img
             whileHover={{ scale: 1.05 }}
-            src={vidhut22}
+            src={vidhutfinal}
             alt="company"
           />
         </div>

@@ -1,10 +1,12 @@
 import React, { useEffect } from "react";
 // import qcab from "../../static/images/qcab.png";
-import qcab22 from "../../static/images/qcab22.jpeg";
+// import qcab22 from "../../static/images/qcab22.jpeg";
+import qcabfinal from "../../static/images/qcabfinal.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
 // import parmanu from "../../static/images/parmanu.png";
-import parmanu22 from "../../static/images/parmanu22.jpeg";
+import parmanufinal from "../../static/images/parmanufinal.png";
+// import parmanu22 from "../../static/images/parmanu22.jpeg";
 import { motion } from "framer-motion";
 import "./thirdPage.css";
 
@@ -24,7 +26,7 @@ function ThirdPage() {
             <div data-aos="fade-up" data-aos-duration={2000} className="photo">
               <motion.img
                 whileHover={{ scale: 1.05 }}
-                src={parmanu22}
+                src={parmanufinal}
                 alt="company"
               />
             </div>
@@ -39,7 +41,7 @@ function ThirdPage() {
             <div data-aos="fade-up" data-aos-duration={2500} className="photo">
               <motion.img
                 whileHover={{ scale: 1.05 }}
-                src={qcab22}
+                src={qcabfinal}
                 alt="company"
               />
             </div>

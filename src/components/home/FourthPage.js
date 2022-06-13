@@ -1,7 +1,8 @@
 import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 // import impact from "../../static/images/impact.png";
-import impact22 from "../../static/images/impact22.jpeg";
+import impactfinal from "../../static/images/impactfinal.png";
+// import impact22 from "../../static/images/impact22.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./fourthPage.css";
@@ -50,7 +51,7 @@ function FourthPage() {
         >
           <motion.img
             whileHover={{ scale: 1.05 }}
-            src={impact22}
+            src={impactfinal}
             alt="company"
           />
         </div>
